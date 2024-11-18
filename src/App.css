@@ -128,3 +128,9 @@ button:hover {
     padding:0vw 10vw 0vw 4vw;
   }
 }
+
+@media screen and (max-height: 425px) {
+  .bottom_main_section1 p {
+    padding:0;
+  }
+}
