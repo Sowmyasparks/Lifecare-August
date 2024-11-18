@@ -1,0 +1,130 @@
+*{
+  font-family: Lato;
+}
+.top_main_section {
+  height: 45vh;
+  background-image: linear-gradient(rgba(22,22,22,0), rgba(22,22,22,0.6)), url("./images/examine.svg");
+  background-color: #cccccc;
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 5vh 1vw 0vh;
+  top: 0;
+
+}
+
+.top_main_section_text {
+  font-weight: 400;
+  text-align: center;
+  color: #FFFFFF;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.top_main_section h1 {
+font-size: 7vw;
+margin-bottom: 0;
+}
+
+.top_main_section p {
+  font-size: 2vw;
+  margin-top: 0;
+}
+.bottom_main_section {
+  height: 45vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.bottom_main_section1 {
+  width: 50vw;
+  background: #EBE772;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom_main_section1 p {
+  padding:2vw 15vw 2vw 4vw;
+  color: #1B1947;
+  font-weight: 700;
+  text-align: left;
+  font-size: 4.5vw;
+}
+
+.bottom_main_section2 {
+  width: 50vw;
+  height: 45vh;
+  background-image: url("./images/instruct.svg");
+  background-color: #cccccc;
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a:link, a:visited {
+  color: white;
+  padding: 1vw 1vh;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+
+a:hover, a:active {
+  background-color: rgb(246, 248, 246);
+  color: black;
+  cursor: pointer;
+}
+
+button {
+  background-color:#9EBE53;
+  color: white;
+  padding: 1vh 2vh;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color:#7c9541;
+}
+
+.footer{
+  background-color: #1B1947;
+  bottom: 0;
+  padding: 1vh;
+  font-size: smaller;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.logo_align {
+  margin-right:auto;
+}
+
+@media screen and (max-width: 640px) {
+  .hideWhenSmall {
+    display:none;
+  }
+  button {
+    margin: 2vw;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .bottom_main_section1 p {
+    padding:0vw 10vw 0vw 4vw;
+  }
+}
