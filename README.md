@@ -12,7 +12,7 @@ Frontend: React, CSS (Flexbox), HTML5
 
 Accessibility: WCAG 2.1 guidelines
 
-PWA Features: Manifest file, service workers
+PWA Features: Manifest file
 
 Testing Tools: Lighthouse, Chrome DevTools
 
